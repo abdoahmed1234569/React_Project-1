@@ -1,0 +1,41 @@
+.portfolio .info h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #2c3e50;
+}
+@media(max-width: 576px) {
+    .portfolio .info h2 {
+        font-size: 30px;
+        white-space: nowrap;
+    }
+}
+.portfolio .info span::before {
+    content: "";
+    position: absolute;
+    left: 40px;
+    bottom: 5px;
+    width: 5rem;
+    height: 4px;
+    background-color: #2c3e50;
+}
+.portfolio .info span::after {
+    content: "";
+    position: absolute;
+    right: 40px;
+    bottom: 5px;
+    width: 5rem;
+    height: 4px;
+    background-color: #2c3e50;
+}
+.portfolio .info span i {
+    color: #2c3e50;
+}
+.portfolio .content {
+    background-color: #1abc9c;
+    opacity:0;
+    transition: all .4s ease-in-out;
+}
+.portfolio .content:hover {
+    opacity: 1;
+    cursor: pointer;
+}

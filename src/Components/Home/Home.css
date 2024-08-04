@@ -1,0 +1,25 @@
+.home {
+    background-color: #1abc9c;
+}
+.home .info h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.home .info span::before {
+    content: "";
+    position: absolute;
+    left: 40px;
+    bottom: 5px;
+    width: 5rem;
+    height: 4px;
+    background-color: #fff;
+}
+.home .info span::after {
+    content: "";
+    position: absolute;
+    right: 40px;
+    bottom: 5px;
+    width: 5rem;
+    height: 4px;
+    background-color: #fff;
+}
